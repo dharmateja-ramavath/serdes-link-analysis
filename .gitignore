@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ansys (keep only the .aedt project file)
+*.aedtresults/
+*.lock
+*.auto
+*.asol
+*.aedb.lock
+
+# Altium (keep only project sources)
+History/
+__Previews/
+Project Outputs*/
+Project Logs*/
+*.PcbDoc.htm
+*.SchDocPreview
+*.PcbDocPreview
