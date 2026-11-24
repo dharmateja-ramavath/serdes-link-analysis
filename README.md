@@ -6,7 +6,7 @@ extracted in **Ansys SIwave** (0–40 GHz S-parameters), and analysed with a **P
 then **validated against Ansys Nexxim** (Quick Eye and VerifEye).
 
 **Author:** R Dharma Teja, M.Tech Integrated Circuits & Microsystems Packaging, IIT Hyderabad
-
+**Full report:** [High-Speed PCB Channel and SerDes Link Analysis — Final Report (PDF)](docs/High-Speed%20PCB%20Channel%20and%20SerDes%20Link%20Analysis%20%E2%80%94%20Final%20Report.pdf)
 ---
 
 ## 1. Channel design (Altium Designer → Ansys SIwave)
@@ -146,6 +146,8 @@ Plots are written to `results/python/`. Noise/jitter assumptions are set at the 
 ├── results/nexxim/              Ansys Nexxim screenshots
 ├── altium/                      Altium Designer project: schematic and PCB layout
 ├── siwave/PCB3.siw              Ansys SIwave project used for the extraction
+├── nexxim/Project2.aedt         Ansys Nexxim (AEDT) circuit project
+├── docs/                        full project report (PDF)
 └── requirements.txt
 ```
 
